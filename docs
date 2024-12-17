@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir -p src tests docs .github workflows
+touch src/main.py tests/test_main.py docs/README.md .gitignore LICENSE
+echo "# Documentation" > docs/README.md
+echo "Standard project structure created."
